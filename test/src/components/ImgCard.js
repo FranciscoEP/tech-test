@@ -11,7 +11,14 @@ const ImgCard = () => {
   }
 
   return (
-    <Box w="600px" border="1px solid #e3e6f0" rounded="7px" bg="white" overflow="hidden">
+    <Box
+      w="600px"
+      border="1px solid #e3e6f0"
+      rounded="7px"
+      bg="white"
+      overflow="hidden"
+      boxShadow="2xl"
+    >
       <Heading
         color="#4e73df"
         size="s"
