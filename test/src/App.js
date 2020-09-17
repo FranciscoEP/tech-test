@@ -1,5 +1,5 @@
 import React from 'react'
-import { CSSReset, Flex, Grid, Box, Stack } from '@chakra-ui/core'
+import { CSSReset, Grid, Box, Stack } from '@chakra-ui/core'
 import BlueCard from './components/BlueCard'
 import GreenCard from './components/GreenCard'
 import Chart from './components/Chart'

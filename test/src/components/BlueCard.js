@@ -11,12 +11,12 @@ const BlueCard = () => {
     <Box
       w="300px"
       borderLeft="4.5px solid rgb(78, 115, 223)"
-      rounded="10px"
+      rounded="7px"
       boxShadow="2xl"
       bg="gray.50"
       boxSizing="border-box"
     >
-      <Flex wrap="wrap" spacing={10} py={2} px={4}>
+      <Flex wrap="wrap" spacing={10} py={2} px={1}>
         <Box>
           <Container>
             <Heading
@@ -50,7 +50,7 @@ const BlueCard = () => {
             >
               LLEGADA ESTIMADA
             </Heading>
-            <Box fontSize="14px">
+            <Box fontSize="13px">
               <Text fontWeight="semibold">{props.passengers[1]}</Text>
               <Text fontWeight="semibold">{props.etaDate}</Text>
               <Text fontWeight="semibold"># ACMPÑTS: {props.passInReserv[1]}</Text>

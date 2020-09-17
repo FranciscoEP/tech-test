@@ -47,9 +47,7 @@ const ImgCard = () => {
           <Text as="p" color="#4e73df" fontWeight="semibold">
             <a href="https://undraw.co/"> Colección </a>
           </Text>
-          <Text as="p" fontSize="s">
-            <p>&nbsp; Imágenes, Collage</p>
-          </Text>
+          <Text fontSize="s">&nbsp; Imágenes, Collage</Text>
         </Box>
         <Text as="p" color="#4e73df" fontWeight="semibold" d="flex" alignItems="baseline">
           <a href="https://undraw.co/">Ilustraciones →</a>
